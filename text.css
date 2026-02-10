@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#heading{
+    font-weight: 750;
+    line-height: 40px;
+}
+#second{
+    margin-top:5px ;
+    color: rgba(0, 0, 0, 0.788)
+}
+#author{
+    color: rgba(165, 55, 55, 0.811);
+    font-size:18px ;
+}
+#text{
+    color: rgba(14, 10, 10, 0.964);
+    margin-top: 10px;
+    line-height: 18px;
+} 
+#bottom{
+    margin-top:50px;
+    font-size: 15px;
+    background-color: rgb(214, 54, 54);
+    color:white;
+    padding-top :15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#span{
+    cursor: pointer;
+}
+#span:hover{
+    text-decoration: underline;
+}

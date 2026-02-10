@@ -1,0 +1,50 @@
+#sub{
+    background-color: red;
+    color:white;
+    padding: 7px;
+    
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+#sub:hover{
+    opacity: 0.5;
+
+}
+/* Applied when butoon is clicked */
+#sub:active{               
+    opacity: 0.3;
+}
+#join{
+    background-color: white;
+    border: 1px solid blue;
+    color:blue;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width:60px; */
+    cursor: pointer;
+    margin: 10px;
+    transition: all 1s;
+}
+#join:hover{
+    background-color: blue;
+    color: white;
+}
+
+#tweet{
+    background-color: rgb(5, 132, 217);
+    color:white;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 5px;
+    width:70px;
+    height:30px; 
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+#tweet:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+
+}

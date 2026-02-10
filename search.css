@@ -1,0 +1,82 @@
+#one{
+    border:1px solid rgb(207, 207, 207);
+    color: rgb(108, 107, 107);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#ggl{
+    margin-left: 100px;
+    margin-top: 50px;
+    /* height: 100px; */
+    width: 200px;
+}
+#two{
+    display: block;
+    margin-top: 10px;
+    border:1px solid rgb(207, 207, 207);
+    color: rgb(108, 107, 107);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    color: grey;
+    font-size: small;
+}
+#text1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#three{
+    border:2px solid black;
+    padding: 10px;
+    width: 280px;
+    border-radius: 5px;
+}
+#btn1{
+    width:300px;
+    padding: 15px;
+    background-color: rgba(9, 21, 198, 0.674);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+}
+div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+#four{
+    width: 250px;
+    border: 0;
+    padding: 10px;
+    font-size: medium;
+}
+#btn2{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: medium;
+}
+#bar{
+    width:450px;
+    box-shadow: 5px 5px 10px rgba(10, 9, 9, 0.462);
+    border-radius: 5px;
+    border: 2px solid grey;
+}

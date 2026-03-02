@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document1</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      #sp {
+        width: 550px;
+        background-color: red;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="one" id="title">DOM Manipulation <span>TEST TEXT</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi,
+        minus?
+      </p>
+    </div>
+    <ul>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+    <span id="sp">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sed
+      dolores cum vitae molestiae maxime velit in similique porro
+      official.</span>
+
+    <script>
+      // let title = document.getElementById('title');
+      // let query = document.querySelector('.one');
+      // console.log(title.id);      //title
+      // console.log(title.className);   //one
+      // console.log(title.class);   //undefimed
+      // title.style.color = 'red';
+      // title.style.backgroundColor = 'white';
+      // title.style.padding = '10px';
+
+      // console.log(title.innerText);   //DOM Manipulation TEST TEXT
+      // console.log(title.innerHTML);   //DOM Manipulation <span>TEST TEXT</span>
+
+      //   let ul = document.querySelector("ul");
+      //   let lilist = document.querySelectorAll("li");
+      //   console.log(ul.children); //HTMLCollection(3) [li, li, li]
+      //   console.log(lilist); //NodeList(3) [li, li, li]
+      //   lilist[0].style.color = "red";
+      //   lilist.forEach((li) => {
+      //     li.style.fontSize = "20px";
+      //   });
+
+      let sp = document.getElementById("sp");
+      sp.style.color = "black";
+      sp.style.fontSize = "20px";
+
+    </script>
+  </body>
+</html>
+
+
+
+

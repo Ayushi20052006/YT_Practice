@@ -17,3 +17,16 @@ console.log(myDate4.toString());
 
 let myTimeStamp=Date.now();
 console.log(myTimeStamp);
+
+
+//OUTPUT
+// 2026-03-05T14:32:19.879Z
+// object
+// Thu Mar 05 2026 20:02:19 GMT+0530 (India Standard Time)
+// Thu Mar 05 2026
+// 20:02:19 GMT+0530 (India Standard Time)
+// 3/5/2026, 8:02:19 PM
+// Mon Jan 23 2023
+// Mon Jan 23 2023
+// Mon Jan 23 2023 10:30:45 GMT+0530 (India Standard Time)
+// 1772721139915

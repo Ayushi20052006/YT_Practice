@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+
+
+
+    <script>
+        function addlang(lang){
+            const ul = document.querySelector('.lang');
+            const li = document.createElement('li');
+            li.innerText=lang;
+            ul.appendChild(li);
+        }
+        addlang('Python');
+        addlang('C++');
+
+
+        function optimisedAddLang(lang){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(lang));
+            document.querySelector('.lang').appendChild(li);
+        }
+        optimisedAddLang('Java');
+        
+
+        //EDIT
+        const firstLang = document.querySelector('li:first-child');
+        firstLang.innerText = 'JS';
+
+        //remove
+        const lastLang = document.querySelector('li:last-child');
+        lastLang.remove();
+
+
+    </script>
+</body>
+</html>

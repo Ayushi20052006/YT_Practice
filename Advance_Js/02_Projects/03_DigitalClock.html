@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+      .box {
+        height: 300px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        align-items: center;
+        justify-content: center;
+      }
+      #btn {
+        background-color: yellow;
+        height: 50px;
+        width: 100px;
+        font-size: larger;
+      }
+      #result {
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <button id="btn" onclick="showtime()">Time</button>
+      <p id="result"></p>
+    </div>
+
+    <script>
+      const result = document.getElementById("result");
+      let timer;
+
+      function showtime() {
+        if (timer) return; // Prevent multiple intervals
+        timer = setInterval(() => {
+          result.innerText = new Date().toLocaleTimeString();
+        }, 1000);
+      }
+    </script>
+  </body>
+</html>
